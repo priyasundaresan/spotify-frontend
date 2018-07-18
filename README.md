@@ -20,4 +20,3 @@ $ python3 main.py
 ```
 Go to http://localhost:8000/ and enter any artist in the search field.
 
-<img src="/Desktop/screenshot.png" alt="Screenshot"/>
