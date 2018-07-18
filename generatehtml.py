@@ -25,7 +25,7 @@ def chart(feature, cache):
                         legend: 'none'};",
                     "var barchart = new google.visualization.BarChart(document.getElementById(\'%s\'));" % feature,
                     "barchart.draw(data, barchart_options);}"]
-    return '\n'.join(string)
+    return ''.join(string)
 
 # Sets up basic HTML code with a form element to get an artist as input
 def setup():
@@ -46,10 +46,10 @@ def setup():
               "<p>Get a detailed breakdown of the audio features of their top ten hits.</p></legend>",
               "Name:<br><input type='text' name='artist' size='36'><br><br>",
               "<input type='submit' value='Submit'></fieldset></div></form>"]
-    return '\n'.join(string)
+    return ''.join(string)
 
 def finish_setup():
-    return '\n'.join(["</head>", "</html>"])
+    return ''.join(["</head>", "</html>"])
 
 # If an artist is not found in the results query, print an error message
 def error_msg():
@@ -114,4 +114,4 @@ def report(features, cache, header, image, subheader1, subheader2):
                "<li><strong>time signature</strong> – how many beats per measure (4 = 4/4 (common time), 3 = 3/4, ...)</li>",
                "</ul>",
                "</body>", "</html>"]
-    return '\n'.join(string)
+    return ''.join(string)
