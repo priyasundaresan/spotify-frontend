@@ -8,6 +8,11 @@ popularity.
 * main.py 
 * generatehtml.py
 
+## Downloading
+```
+git clone https://github.com/priyasundaresan/spotify-frontend
+```
+
 ## Dependencies
 spotipy – a Python library for the Spotify Web API
 ```
