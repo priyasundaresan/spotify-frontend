@@ -10,13 +10,13 @@ popularity.
 
 ## Downloading
 ```
-git clone https://github.com/priyasundaresan/spotify-frontend
+$ git clone https://github.com/priyasundaresan/spotify-frontend
 ```
 
 ## Dependencies
 spotipy – a Python library for the Spotify Web API
 ```
-pip install spotipy
+$ pip install spotipy
 ```
 ## Running the Program
 Navigate into the folder containing main.py and generatehtml.py, and run:
