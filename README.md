@@ -14,7 +14,7 @@ spotipy – a Python library for the Spotify Web API
 pip install spotipy
 ```
 ## Running the Program
-Navigate into the folder containing  a terminal, enter:
+Navigate into the folder containing main.py and generatehtml.py, and run:
 ```
 $ python3 main.py
 ```
