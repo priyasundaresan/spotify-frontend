@@ -20,4 +20,4 @@ $ python3 main.py
 ```
 Go to http://localhost:8000/ and enter any artist in the search field.
 
-![screenshot][file:///Users/priyasundaresan/Desktop/Screen%20Shot%202018-07-17%20at%207.40.56%20PM.png]
+<img src="/Desktop/screenshot.png" alt="Screenshot"/>
