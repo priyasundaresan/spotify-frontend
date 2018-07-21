@@ -19,6 +19,9 @@ spotipy – a Python library for the Spotify Web API
 $ pip install spotipy
 ```
 ## Running the Program
+First, in main.py edit the following lines with your client ID and client secret which can be found [here](https://developer.spotify.com/dashboard/applications)
+
+
 Navigate into the folder containing main.py and generatehtml.py, and run:
 ```
 $ python3 main.py
