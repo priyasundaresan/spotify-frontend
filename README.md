@@ -28,7 +28,7 @@ Navigate into the folder containing main.py and generatehtml.py, and run:
 ```
 $ python3 main.py
 ```
-Go to http://localhost:8000/ and enter any artist in the search field.
+Go to http://localhost:8000/ and search for any number of artists using the form. Keyboard interrupt in Terminal to kill the server and exit the session. 
 
 ![Screenshot](screenshots/overview.png)
 ![Screenshot](screenshots/graphs.png)
