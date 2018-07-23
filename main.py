@@ -33,9 +33,10 @@ def artistinfo(name):
     cache = {} # A dictionary where each key is a track and each value is a dictionary containing audio features and their values
     for track in tracks:
         features = spotify.audio_features(tracks=[track['uri']])[0]
-        preview = track['preview_url']
-        if preview: # The track has a 30-second preview available
-            features['preview'] = preview
+        if not features:
+            continue
+        if 'preview_url' in track: # The track has a 30-second preview available
+            features['preview'] = track['preview_url']
         cache[track['name']] = features
     return util.report(parameters, cache, name, img, genres, popularity) # Generate the report of the artist as html code
 
