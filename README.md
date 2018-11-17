@@ -1,4 +1,4 @@
-# Spotify Top Ten Hits Frontend
+# SpotiPy Top Ten Hits Frontend
 A simple Spotify web app using Python and HTML. Enter any artist name or keyword in the search field and get a report of
 the audio features – acousticness, danceability, energy, musical key, tempo, etc. –
 of their top ten hits, with downloadable previews, as well as the artist's genre and
